@@ -5,7 +5,10 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
- 
+
+}
+body{
+  background-color: #F3C0C0;
 }
 /* Added Products */
 .Producttag{
