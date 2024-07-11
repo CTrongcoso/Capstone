@@ -4,4 +4,4 @@
   * Christian (BackEnd & FrontEnd)
   * Luke Daniel (BackEnd & FrontEnd)
 # Design
-  *[Figma Design](https://www.figma.com/design/uMPzW6QhFGXnQMG1KUapPR/Capstone-Prototype?node-id=0-1&t=CcXV07TOzyUrpVel-1)
+  * [Figma Design](https://www.figma.com/design/uMPzW6QhFGXnQMG1KUapPR/Capstone-Prototype?node-id=0-1&t=CcXV07TOzyUrpVel-1)
