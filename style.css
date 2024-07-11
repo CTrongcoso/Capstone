@@ -520,6 +520,190 @@ button:hover{
     display: flex;
     flex-direction: column;
   }
+  .sectionFirst .FrontPage .headling{
+    font-size: 2.24rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+   }
+   .sectionFirst .FrontPage .address{
+   color: white;
+   font-size: 20px;
+   line-height: 1.2em;
+   font-family: 'Poppins', sans-serif;
+}
+/* Added Products */
+.Producttag{
+  text-align: center;
+  font-weight: 600;
+  font-size: x-large;
+  margin-bottom: 100px;
+}
+
+.ProductsCon{
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: space-between;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+.note{
+  text-align: center;
+  color: indianred;
+  margin: 20px;
+}
+#seemore,#Location{
+  color: grey;
+}
+#productimg{
+  width: 50%;
+  height: 50%;
+}
+/* Services */
+.container h1{
+  text-align: center;
+  font-weight: 600;
+  font-size: x-large;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.services{
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.category li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  padding: 5px 0;
+  font-weight: bold;
+}
+.price {
+  font-weight: bold;
+  border-right: 5px sol;
+}
+.category h2{
+  text-align: center;
+}
+
+/* Gallery */
+.GalleryTag{
+  text-align: center;
+  font-weight: 600;
+  font-size: x-large;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.GalleryCon{
+  display: grid;
+  grid-template-columns: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+.GalleryCon p {
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.NailCare{
+  border: solid;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+#galleryimg{
+  width: 60%;
+  height: 75%;
+  box-shadow: 5px 5px 5px #474747;
+}
+/* FAQs */
+.FaqsTag {
+  text-align: center;
+  font-weight: 600;
+  font-size: x-large;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* ABOUT */
+.AboutTag {
+  text-align: center;
+  font-weight: 600;
+  font-size: x-large;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.Subdetails{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+}
+.AboutCon{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+  
+}
+.OwnerName h1{
+  font-weight: bolder;
+  font-size: x-large;
+  margin-bottom: 5px;
+  min-height: 0.5rem;
+  line-height: 2.25rem;
+}
+.OwnerName p{
+  font-weight: 500;
+  min-height: 1.5rem;
+  line-height: 1.25rem;
+}
+.SalonTag{
+  text-align: center;
+  font-weight: 600;
+  font-size: x-large;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.ExactLoc{
+  text-align: center;
+  margin-bottom: 25px;
+}
+#ExactLoc{
+  color: indianred;;
+  text-align: center;
+  align-content: center;
+}
+.FrontViewHairy{
+  text-align: center;
+  margin-bottom: 25px;
+}
+#FrontViewHairy{
+  width: 60%;
+  height: 75%;
+}
+.Details{
+  margin-bottom: 25px;
+  text-align: center;
+}
+.Logo{
+  margin-top: 250px;
+  text-align: center;
+}
+.Tag{
+  margin-top: 100px;
+  text-align: center;
+  color: indianred;;
+  
+  font-size: x-large;
+}
+
 }
 @media (max-width:610px){
   .sectionFirst .FrontPage{

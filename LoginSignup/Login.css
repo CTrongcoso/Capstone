@@ -76,3 +76,18 @@ body{
     text-align: center;
 }
 
+@media screen and (min-width:280px) and (max-width:767px){
+.LoginTag{
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#LoginBtn{
+    height: 40px;
+    width: 310px;
+}
+.Username input, .Password input{
+    height: 40px;
+    width: 310px;
+}
+}

@@ -174,3 +174,46 @@ input[type=number]::-webkit-outer-spin-button {
   border: none;
   background-color:#F3C0C0;
 }
+
+@media screen and (min-width:280px) and (max-width:767px){
+.SignupTag{
+  font-size: x-large;
+  font-weight: bold;
+}
+#Signupbtn{
+  height: 40px;
+  width: 310px;
+}
+.Email input,
+.PhoneNumber input,
+.Password input,
+.ConfirmPassword input{
+  width: 310px;
+}
+.Firstname input,
+.Lastname input{
+  width: 150px;
+}
+.FullName {
+  display: flex;
+  gap: 10px;
+}
+
+/*  6 digitcodes */
+
+.VerifyTag p{
+  font-size: x-large;
+}
+.Details p{
+  font-size: 20px;
+}
+.codeinput input{
+  height: 50px;
+  width: 40px;
+  margin: 0;
+  padding: 0%;
+}
+.Confirmation{
+  padding:  20px 20px 20px;
+}
+}

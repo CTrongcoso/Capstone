@@ -172,7 +172,7 @@ select{
   gap: 10px;
   font-size: medium;
   font-weight: 600;
-  margin-top: 40px;
+  margin-top: 70px;
 }
 .info-item {
   display: flex;
@@ -203,6 +203,79 @@ select{
   display: inline-block;
   margin-right: 10px;
 }
+@media screen and (min-width:768px) and (max-width:1280px){
+  .Containter{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+@media screen and (min-width:280px) and (max-width:767px){
+  .Containter{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .Header{
+    text-align: center;
+    margin-top: 150px;
+  }
+  .Header .ReservationTag{
+    font-size: large;
+    font-weight: bold;
+  }
+  .Name,
+  .Email,
+  .PhoneNumber,
+  .PreferredDate,
+  .PreferredTime,
+  .Staff,
+  .WhatServices{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-size: small;
+    font-weight: 600;
+  }
+
+  .Name input,
+  .Email input,
+  .PhoneNumber input,
+  .PreferredDate input,
+  .PreferredTime input{
+    height: 40px;
+    width: 310px;
+  }
+  #ReserveBtn{
+    height: 40px;
+    width: 210px;
+    font-size: small;
+    font-weight: 600;
+    margin: 0;
+  }
+  .ReserveBtn{
+    margin-top: 20px;
+  }
+  .information {
+    font-size: small;
+    font-weight: 600;
+    margin-top: 140px;
+  }
+
+  .modal-content {
+    width: 200px;
+  }
+  .calendar {
+    width: 310px;
+  }
+  
+  .calendar-table th, .calendar-table td {
+    padding: 5px;
+  }
+  
+}
+
+
 
 
 /* yung option di ko malagyan ng design yung laman ng combo box */
