@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    font-family: "Poppins",sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lucida Sans';
+
+}
+
+/* ====================== Navigation bar ================= */
+
+.Navigation {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    background-color: #F1D2D2;
+    color: white;
+    padding: 20px;
+    
+}
+
+.Navigation .logo {
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.Navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.Navigation ul li {
+    padding-top: 10px;
+    margin: 0;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.Navigation ul li a {
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s ease;
+
+}
+
+button {
+    background-color: #DFBEBE; /* Blue background */
+    border: none;
+    width: 250px;
+    color: black; /* White text */
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
+
+button:hover {
+    background-color: #E8A0A0; 
+}
+
+.LogoutButton {
+    margin-top: 160px;
+}
+
+.LogoutButton:hover {
+    background-color: #E8A0A0;
+}
+
+/* ====================== Tab Title ================= */
+
+.content {
+    align-self: auto;
+    margin-left: 650px;
+    padding-top: 80px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+
+.content h1 {
+    font-weight: 500;
+    padding-left: 300px;
+    margin-bottom: 0px;
+}
+.content hr {
+    width: 400px;
+    margin-left: 220px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+/*========================= Date and Time Format =======================-->*/
+
+
+.Date-Time {
+    width: 390px;
+    height: 40px;
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+    background: #F8D9D9;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.Date-Time-Format {
+    color: darkgray;
+    background: white;
+    width: fit-content;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    
+}
+
+/*========================= Appointment detail s =======================-->*/
+
+.AppointmentsColumn {
+    margin-left: 300px;
+    height: 29px;
+    width: 1600px;
+    background: #F1D2D2;
+    border-radius: 5px;
+    
+    
+}
+
+.AppointmentsColumn .column {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    gap: 150px; 
+    font-weight: 500;
+    font-size: 18px;
+}
+.AppointmentsColumn .schedules {
+    margin-top: -10px;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    gap: 106px; 
+    font-weight: 500;
+    font-size: 13px;
+    align-items: center;
+    background: #F1D2D2;
+}
+
+.AppointmentsColumn ul li {
+    width: 140px;
+}
+
+.AppointmentsColumn .schedules .Actions {
+    width: 70px;
+    gap: 20px
+    
+}
