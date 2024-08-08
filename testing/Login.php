@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($stmt->rowCount() == 1) {
             $response['sucess'] = true;
         } else {
-            $response['error'] = "Error:  Password is not the same";
+            $response['error'] = "Error:  Password or Username is Incorrect";
         }
     } catch (PDOException $e) {
         $response['error'] = "Error: " . $stmt->$error;

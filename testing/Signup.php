@@ -14,20 +14,22 @@ $con = new mysqli($servername, $dbusername, $dbpassword, $dbname);
         $phonenumber = $_POST['Phonenumber'];
         $pass = ['Password'];
         $passconfirm = "Confirm_Password";
-
-        if($pass != $passconfirm){
-             $response['error'] = "Error:  Password is not the same";
+        
+        //verifying the unique email
+        $verify_query = mysqli_query($con,"SELECT Email FROM Accounts WHERE Email='$email'");
+        if(mysqli_num_rows($verify_query)!=0){
+            echo"<div class ='message'>
+                    <p>This email is used, Try Another One Please! </p>
+                    </div>";
+        }elseif($pass != $passconfirm){
+            echo"<div class ='message'>
+                    <p>The Password is not the same with Confirm Password</p>
+                    </div>";
         }else{
-            $stmt->bind_param("sss", $email, $firstname, $lastname,  $phonenumber,   $pass);
-            $stmt = $con->prepare("INSERT INTO Accounts (Email, Firstname, Lastname, Phonenumber, Password) VALUES (?, ?, ?, ?, ?)");
+            mysqli_query($con, "INSERT INTO Accounts(Email,Firstname,Lastname,Phonenumber,Password) VALUES('$email','$firstname','$lastname','$phonenumber','$pass')") or die("Error Occured");
+        }
 
-            if($stmt->execute()) {
-                $response['sucess'] = true;
-            }else{
-                $response['error'] = "Error: " . $stmt->error;
-            }
-            $stmt->close();
-            }
+
         $conn->close();
         } else {
             $response['error'] = "Invalid request method.";
